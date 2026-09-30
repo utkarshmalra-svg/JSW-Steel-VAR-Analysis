@@ -134,17 +134,24 @@ This project demonstrates practical application of:
 
 - Value at Risk (VaR)
 - Market Risk
-- Return Analysis
 - Volatility
-- Standard Deviation
 - Probability Distribution
 - Monte Carlo Simulation
 - Quantitative Risk Management
 
 ---
 
+## Related Project
+[JSW Steel Relative Valuation](https://github.com/<your-username>/jsw-steel-relative-valuation)
+
+---
+
+## Author
+
+Utkarsh Singh Malra 
+
+---
+
 ## Disclaimer
 
-This project is created for educational and analytical purposes only.
-
-The analysis should not be considered investment advice or a recommendation to buy or sell securities.
+This project is created for educational and analytical purposes only. The analysis should not be considered investment advice or a recommendation to buy or sell securities.
