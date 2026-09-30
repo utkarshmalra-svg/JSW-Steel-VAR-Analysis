@@ -1,2 +1,150 @@
-# JSW-Steel-VAR-Analysis
-alue at Risk (VaR) analysis of JSW Steel using Historical and Monte Carlo simulation methods on 10 years of weekly price data (Excel).
+# JSW Steel – Value at Risk (VaR) Analysis
+
+## Project Overview
+
+This project analyzes the market risk of JSW Steel Ltd. using Value at Risk (VaR).
+
+The analysis uses historical stock return data and applies two approaches:
+
+- Historical/Parametric VaR analysis
+- Monte Carlo Simulation
+
+The model is developed in Microsoft Excel and calculates potential losses at different confidence levels.
+
+---
+
+## Excel Model
+
+The complete Excel model can be downloaded here:
+
+**[Download Excel VaR Model](JSW-VAR-Anaysis.xlsx)**
+
+---
+
+## Objectives
+
+The main objectives of this project are:
+
+- Analyze historical returns of JSW Steel.
+- Measure potential downside risk using VaR.
+- Compare risk estimates using different methodologies.
+- Understand the application of quantitative risk management techniques in equity analysis.
+
+---
+
+## Methodologies Used
+
+### 1. Historical / Parametric VaR
+
+The model analyzes historical stock returns and calculates risk measures including:
+
+- Calculate weekly returns from adjusted prices.
+- Sort returns from lowest to highest.
+- Read the return at each percentile (10%, 5%, 1%, 0.5%).
+- Multiply by the current price to get VaR in ₹.l
+
+  ![Historical VaR Analysis](images01_historical_var.png.png)
+
+---
+
+### 2. Monte Carlo Simulation
+
+Monte Carlo simulation is used to generate simulated stock returns based on the return distribution.
+
+The simulation includes:
+
+- Estimate the mean and standard deviation of weekly returns.
+- Simulate a large number of random returns from that distribution.
+- Sort the simulated returns and read the same percentiles.
+- Multiply by the current price to get VaR in ₹.
+
+ ![Monte Carlo VaR Analysis](Screenshots/monte-carlo-var.png)
+---
+
+## Key Risk Measures
+
+The model estimates VaR in both percentage and INR terms.
+
+The analysis considers confidence levels of:
+
+| Percentile | Confidence Level |
+|------------|------------------|
+| 10% | 90% |
+| 5% | 95% |
+| 1% | 99% |
+| 0.5% | 99.5% |
+
+VaR represents the estimated potential loss in the stock price over the selected time horizon at a given confidence level.
+
+---
+
+## Historical / Parametric VaR Analysis
+
+The following screenshot shows the stock return analysis, statistical measures and VaR calculations.
+
+
+
+### Analysis Includes
+
+- Historical stock prices
+- Stock returns
+- Sorted returns
+- Minimum and maximum return
+- Mean return
+- Standard deviation
+- VaR percentage
+- VaR in INR
+- Return distribution chart
+
+---
+
+## Monte Carlo VaR Analysis
+
+The following screenshot shows the Monte Carlo simulation and simulated return distribution.
+
+
+
+### Analysis Includes
+
+- Historical returns
+- Simulated returns
+- Random repetitions
+- Simulated return distribution
+- Mean return
+- Standard deviation
+- VaR percentage
+- VaR in INR
+
+---
+
+## Tools Used
+
+- Microsoft Excel
+- Financial Modeling
+- Statistical Analysis
+- Value at Risk
+- Monte Carlo Simulation
+- Equity Risk Analysis
+
+---
+
+## Financial Concepts
+
+This project demonstrates practical application of:
+
+- Value at Risk (VaR)
+- Market Risk
+- Return Analysis
+- Volatility
+- Standard Deviation
+- Probability Distribution
+- Monte Carlo Simulation
+- Quantitative Risk Management
+
+---
+
+## Disclaimer
+
+This project is created for educational and analytical purposes only.
+
+The analysis should not be considered investment advice or a recommendation to buy or sell securities.
