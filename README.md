@@ -78,43 +78,13 @@ VaR represents the estimated potential loss in the stock price over the selected
 
 ---
 
-## Historical / Parametric VaR Analysis
+## Key Insights
 
-The following screenshot shows the stock return analysis, statistical measures and VaR calculations.
-
-
-
-### Analysis Includes
-
-- Historical stock prices
-- Stock returns
-- Sorted returns
-- Minimum and maximum return
-- Mean return
-- Standard deviation
-- VaR percentage
-- VaR in INR
-- Return distribution chart
-
----
-
-## Monte Carlo VaR Analysis
-
-The following screenshot shows the Monte Carlo simulation and simulated return distribution.
-
-
-
-### Analysis Includes
-
-- Historical returns
-- Simulated returns
-- Random repetitions
-- Simulated return distribution
-- Mean return
-- Standard deviation
-- VaR percentage
-- VaR in INR
-
+- At 95% confidence, historical VaR is ₹72.90 (5.79%): in 95% of days, the loss is not expected to exceed this.
+- Historical VaR is higher than Monte Carlo VaR at every confidence level, and the gap widens in the tails.
+- The worst historical weeks cluster in early 2020 and mid-2022. Historical VaR captures these crashes, while a normal-distribution simulation tends to understate extreme losses.
+- Extreme-tail VaR (99% and 99.5%) depends on very few observations, so it should be read with caution.
+  
 ---
 
 ## Tools Used
