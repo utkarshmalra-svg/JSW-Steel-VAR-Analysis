@@ -58,7 +58,7 @@ The simulation includes:
 - Sort the simulated returns and read the same percentiles.
 - Multiply by the current price to get VaR in ₹.
 
- ![Monte Carlo VaR Analysis](Screenshots/monte-carlo-var.png)
+ ![Monte Carlo VaR Analysis](images02_monte_carlo_var.png.png)
 ---
 
 ## Key Risk Measures
