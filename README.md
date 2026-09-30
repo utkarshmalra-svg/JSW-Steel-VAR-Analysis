@@ -112,7 +112,7 @@ This project demonstrates practical application of:
 ---
 
 ## Related Project
-[JSW Steel Relative Valuation](https://github.com/<your-username>/jsw-steel-relative-valuation)
+[JSW Steel Relative Valuation](https://github.com/utkarshmalra-svg/JSW-Steel-Relative-Valuation)
 
 ---
 
